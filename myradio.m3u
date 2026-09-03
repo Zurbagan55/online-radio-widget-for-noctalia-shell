@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1,МоскваФМ
+http://icecast.vgtrk.cdnvideo.ru:8000/moscowfm128
+#EXTINF:-1,Classic piano
+https://radio.bsod.kr/stream/?stn=kbs&ch=1fm
+#EXTINF:-1,Наше радио
+https://nashe1.hostingradio.ru:18000/nashe20-128.mp3

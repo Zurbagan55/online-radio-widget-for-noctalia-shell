@@ -1,0 +1,50 @@
+id = "me/radio"
+name = "Radio"
+version = "1.0.0"
+plugin_api = 14
+author = "me"
+license = "MIT"
+description = "Internet radio player with M3U playlist support"
+
+[[widget]]
+id = "radio"
+entry = "widget.luau"
+
+[widget.actions]
+left = "panel-toggle me/radio:stations"
+right = "none"
+
+[[widget.setting]]
+key = "m3u_path"
+type = "string"
+label_key = "settings.m3u_path.label"
+default = "~/Музыка/myradio.m3u"
+
+[[widget.setting]]
+key = "mpv_socket"
+type = "string"
+label_key = "settings.mpv_socket.label"
+default = "/tmp/mpv_radio_socket"
+
+[[widget.setting]]
+key = "default_volume"
+type = "int"
+label_key = "settings.default_volume.label"
+default = 80
+min = 0
+max = 100
+
+[[widget.setting]]
+key = "show_station_name"
+type = "bool"
+label_key = "settings.show_station_name.label"
+default = true
+
+[[panel]]
+id = "stations"
+entry = "panel.luau"
+width = 380
+height = 500
+placement = "attached"
+open_near_click = true
+

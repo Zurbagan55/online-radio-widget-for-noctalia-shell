@@ -1,0 +1,6 @@
+{
+  "settings.m3u_path.label": "Путь к M3U-плейлисту",
+  "settings.mpv_socket.label": "MPV IPC-сокет",
+  "settings.default_volume.label": "Громкость по умолчанию",
+  "settings.show_station_name.label": "Показывать название станции"
+}
